@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surfing Free</title>
+
+    <link rel="stylesheet" href="/dist/main.css" />
+    <link rel="shortcut icon" href="/assets/svgs/logo.svg" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="max-w-screen-2xl px-[50px] mx-auto pt-5 pb-10 flex items-center gap-[200px]">
+      <!-- App Logo -->
+      <a href="#">
+        <img src="/assets/svgs/logo.svg" class="h-10" alt="">
+      </a>
+      <ul class="flex items-center gap-10">
+        <li>
+          <a href="#storiesSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            stories
+          </a>
+        </li>
+        <li>
+          <a href="#eventsSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            events
+          </a>
+        </li>
+        <li>
+          <a href="#placesSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            places
+          </a>
+        </li>
+        <li>
+          <a href="#boardsSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            boards
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="max-w-screen-2xl px-[50px] mx-auto mb-[100px] relative">
+      <!-- Hero Text -->
+      <header class="absolute z-20 translate-y-1/2 left-20 bottom-1/2">
+        <p class="text-sm font-bold text-primary">YOUR</p>
+        <h1 class="font-playfair font-bold text-[64px] text-black mb-5">
+          Beautiful Escape
+        </h1>
+        <p class="text-base font-light font-poppins text-gray-1">
+          One of the greatest things about the sport of surfing is <br> that you only need three things: your body, <br>
+          a surfboard, and awave.
+        </p>
+      </header>
+
+      <div class="absolute top-0 z-10 font-bold -rotate-90 -right-16">
+        <p class="tracking-[3px] text-[9px] uppercase text-[#dedfdf]">FIRST SURFING MAGAZINE</p>
+      </div>
+
+      <!-- Social media icons -->
+      <div class="absolute bottom-0 right-0 z-10">
+        <div class="flex flex-col items-center gap-10">
+          <a href="#">
+            <img src="/assets/svgs/tumblr.svg" class="w-6 h-6" alt="">
+          </a>
+          <a href="#">
+            <img src="/assets/svgs/twitter.svg" class="w-6 h-6" alt="">
+          </a>
+          <a href="#">
+            <img src="/assets/svgs/vimeo.svg" class="w-6 h-6" alt="">
+          </a>
+        </div>
+      </div>
+
+      <img src="/assets/images/hero-img.png" class="w-10/12 ml-auto shadow-2xl h-[calc(100vh-100px)]" alt="">
+
+      <!-- Carousel button navigation -->
+      <div class="absolute bottom-0 z-10 flex items-center gap-5 left-20">
+        <button type="button" class="btn-navigation">
+          <img src="/assets/svgs/right-arrow.svg" class="w-6 h-6 rotate-180 opacity-90" alt="">
+        </button>
+        <div class="font-bold text-[#ececec]">
+          <span class="text-sm text-primary">1</span>
+          /
+          <span class="text-base text-black">5</span>
+        </div>
+        <button type="button" class="btn-navigation">
+          <img src="/assets/svgs/right-arrow.svg" class="w-6 h-6" alt="">
+        </button>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section id="storiesSection" class="max-w-screen-2xl px-[50px] mx-auto mb-[100px] relative">
+      <!-- Section Title -->
+      <div class="mb-[60px]">
+        <h2 class="text-[26px] leading-8 font-playfair text-center">Surfing is the most blissful experience you can have
+          <br> on this planet, a taste of heaven.
+        </h2>
+        <p class="my-5 text-[9px] tracking-widest font-bold text-center">
+          JOHN MCCARTHY
+        </p>
+        <div class="w-[3px] h-20 mx-auto bg-primary"></div>
+      </div>
+
+      <div class="flex items-center">
+        <!-- Left content -->
+        <div class="flex flex-col items-center gap-[60px]">
+          <img src="/assets/images/img-1.png" class="w-[700px] h-auto" alt="">
+          <div>
+            <p class="text-sm font-light leading-6 font-poppins text-gray-2 mb-11">
+              By better understanding the various aspects of <br>
+              surfing, you will improve faster and have more <br> fun in water.
+            </p>
+            <a href="#" class="text-link">
+              read more
+            </a>
+          </div>
+        </div>
+        <!-- Right Content -->
+        <div class="relative z-20 w-7/12 -ml-32 top-10">
+          <img src="/assets/images/img-2.png" class="w-full h-auto" alt="">
+          <button type="button" class="absolute translate-x-1/2 translate-y-1/2 bottom-1/2 right-1/2">
+            <img src="/assets/svgs/play-btn.svg" class="w-20 h-20" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Surfboard items -->
+    <section id="boardsSection"
+      class="px-[50px] mx-auto mb-[100px] relative py-[100px] min-h-dvh bg-no-repeat bg-bottom bg-cover bg-[url('/assets/images/ornament-surfboard-shop.png')]">
+      <!-- Section title -->
+      <div class="flex flex-col items-center mb-[150px]">
+        <p class="text-[9px] text-primary tracking-[2px] font-bold text-center uppercase">
+          Shop
+        </p>
+        <h2 class="font-playfair text-center font-bold text-[42px]">
+          Surfboards
+        </h2>
+      </div>
+
+      <!-- Surfboards Carousel -->
+      <div class="relative flex items-center justify-evenly">
+        <!-- Boards Item -->
+        <div class="relative bg-[#ececec] px-10 py-20 flex flex-col h-full">
+          <img src="/assets/images/board-1.png"
+            class="drop-shadow-2xl w-[100px] h-auto absolute right-1/2 translate-x-1/2 bottom-8" alt="">
+          <div class="relative z-10 left-full">
+            <p class="font-poppins font-light text-[#7a7a7a] uppercase tracking-wider text-xs">
+              Funboards
+            </p>
+            <p class="font-playfair text-[26px] leading-[28px]">
+              Chilli Rare Bird
+            </p>
+            <div class="flex flex-col justify-center mt-8">
+              <p class="text-xl font-light tracking-widest text-center text-pink font-poppins">$950</p>
+              <a href="#" class="uppercase text-center font-bold tracking-widest text-[9px]">buy</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boards Item -->
+        <div class="relative bg-[#ececec] px-10 py-20 flex flex-col h-full">
+          <img src="/assets/images/board-2.png"
+            class="drop-shadow-2xl w-[100px] h-auto absolute right-1/2 translate-x-1/2 bottom-8" alt="">
+          <div class="relative z-10 left-full">
+            <p class="font-poppins font-light text-[#7a7a7a] uppercase tracking-wider text-xs">
+              surfboards
+            </p>
+            <p class="font-playfair text-[26px] leading-[28px]">
+              Emery NEM XF
+            </p>
+            <div class="flex flex-col justify-center mt-8">
+              <p class="text-xl font-light tracking-widest text-center text-pink font-poppins">$890</p>
+              <a href="#" class="uppercase text-center font-bold tracking-widest text-[9px]">buy</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boards Item -->
+        <div class="relative bg-[#ececec] px-10 py-20 flex flex-col h-full">
+          <img src="/assets/images/board-2.png"
+            class="drop-shadow-2xl w-[100px] h-auto absolute right-1/2 translate-x-1/2 bottom-8" alt="">
+          <div class="relative z-10 left-full">
+            <p class="font-poppins font-light text-[#7a7a7a] uppercase tracking-wider text-xs">
+              funboards
+            </p>
+            <p class="font-playfair text-[26px] leading-[28px]">
+              Agency GROM
+            </p>
+            <div class="flex flex-col justify-center mt-8">
+              <p class="text-xl font-light tracking-widest text-center text-pink font-poppins">$670</p>
+              <a href="#" class="uppercase text-center font-bold tracking-widest text-[9px]">buy</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left Navigation -->
+        <button type="button" class="absolute left-0 translate-y-1/2 btn-navigation bottom-1/2">
+          <img src="/assets/svgs/arrow-right.black.svg" class="w-6 h-6 rotate-180 opacity-90" alt="">
+        </button>
+        <!-- Right Navigation -->
+        <button type="button" class="absolute right-0 translate-y-1/2 btn-navigation bottom-1/2">
+          <img src="/assets/svgs/arrow-right.black.svg" class="w-6 h-6" alt="">
+        </button>
+      </div>
+
+      <div class="flex justify-center mt-20">
+        <a href="#" class="text-link">
+          show all
+        </a>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section id="eventsSection" class="max-w-screen-2xl px-[50px] mx-auto relative pb-[100px] overflow-hidden">
+      <!-- Surf Training -->
+      <div class="grid items-center grid-cols-12">
+        <div class="relative col-span-4">
+          <p class="text-[130px] font-extrabold text-[#f9f9f9] tracking-[20px] absolute -z-10 -top-20">
+            01
+          </p>
+          <h2
+            class="font-playfair font-bold text-[42px] relative after:block after:w-7 after:mt-2 after:h-[2px] after:bg-primary mb-5 z-0">
+            Surf Training
+          </h2>
+          <p class="mb-10 text-sm font-light text-gray-2 font-poppins">
+            By better understanding the various aspects of <br>
+            surfing, By better understanding the various <br>
+            aspects of surfing, you will improve faster and <br>
+            have more fun in the water.
+          </p>
+          <a href="#" class="text-link">
+            read more
+          </a>
+        </div>
+
+        <div class="relative col-span-8">
+          <img src="/assets/images/img-3.png" class="w-11/12" alt="">
+          <div class="absolute z-10 font-bold -rotate-90 right-5 top-11">
+            <p class="tracking-[3px] text-[9px] uppercase text-[#dedfdf]">surf camps</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Point Break -->
+      <div class="flex items-center justify-center gap-10 mt-[100px]">
+        <div class="relative w-4/12">
+          <img src="/assets/images/img-4.png" class="w-full aspect-square" alt="">
+          <div class="absolute z-10 font-bold -rotate-90 -left-16 top-11">
+            <p class="tracking-[3px] text-[9px] uppercase text-[#dedfdf]">surf camps</p>
+          </div>
+        </div>
+        <div class="relative col-span-4">
+          <p class="text-[130px] font-extrabold text-[#f9f9f9] tracking-[20px] absolute -z-10 -top-20">
+            02
+          </p>
+          <h2
+            class="font-playfair font-bold text-[42px] relative after:block after:w-7 after:mt-2 after:h-[2px] after:bg-primary mb-5 z-0">
+            Point Break
+          </h2>
+          <p class="mb-10 text-sm font-light text-gray-2 font-poppins">
+            By better understanding the various aspects of <br>
+            surfing, By better understanding the various <br>
+            aspects of surfing, you will improve faster and <br>
+            have more fun in the water.
+          </p>
+          <a href="#" class="text-link">
+            read more
+          </a>
+        </div>
+      </div>
+
+      <!-- Join the Club -->
+      <div class="mb-5 mt-[100px]">
+        <div class="w-[3px] h-20 mx-auto bg-primary mb-10"></div>
+        <h2 class="font-playfair text-center font-bold text-[42px] mb-5">
+          Join the Club
+        </h2>
+        <p class="text-sm font-light leading-6 text-center text-gray-2 font-poppins">
+          By understanding the various aspects of surfing, you will improve faster <br>
+          and have more fun in the water.
+        </p>
+      </div>
+      <form action="" method="" class="flex items-center justify-center">
+        <input type="email" name="email" id="email"
+          class="text-[9px] font-bold tracking-[4px] py-[22px] px-[30px] shadow-[1px_2px_2px_0_rgba(0,0,0,0.05)_inset] bg-[#f5f5f5] w-[500px] text-black placeholder:text-black"
+          placeholder="YOUR E-MAIL">
+        <button type="submit" class="p-4 bg-primary">
+          <img src="/assets/svgs/right-arrow.svg" class="w-6 h-6" alt="">
+        </button>
+      </form>
+
+      <!-- Silhouette illustration -->
+      <img src="/assets/images/silhouette-join-club.png" class="absolute left-0 w-full h-screen -bottom-20 -z-10" alt="">
+    </section>
+
+    <!-- Our Camp -->
+    <section id="ourCampSection" class="max-w-screen-2xl mx-auto mb-[100px] relative">
+      <div class="flex items-center gap-10">
+        <img src="/assets/images/img-5.png" class="w-1/2 h-auto" alt="">
+        <div>
+          <p class="text-[9px] tracking-[3px] text-[#bcbdbe] uppercase">
+            OUR CAMP
+          </p>
+          <h2 class="text-[32px] font-playfair font-bold leading-11 mt-12 mb-16 ml-10">
+            CA 91932, USA <br>
+            Imperial Beach <br>
+            560 Silver Strand Blvd
+          </h2>
+          <a href="#" class="text-link text-primary">
+            Get in touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex flex-col items-center justify-center py-10 gap-7">
+      <!-- App Logo -->
+      <a href="#">
+        <img src="/assets/svgs/logo.svg" class="h-10" alt="">
+      </a>
+      <ul class="flex items-center gap-10">
+        <li>
+          <a href="#storiesSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            stories
+          </a>
+        </li>
+        <li>
+          <a href="#eventsSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            events
+          </a>
+        </li>
+        <li>
+          <a href="#placesSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            places
+          </a>
+        </li>
+        <li>
+          <a href="#boardsSection" class="text-[9px] font-bold tracking-widest text-black uppercase hover:text-primary">
+            boards
+          </a>
+        </li>
+      </ul>
+
+      <!-- Social Media -->
+      <div class="flex items-center gap-10">
+        <a href="#">
+          <img src="/assets/svgs/tumblr.svg" class="w-4 h-4" alt="">
+        </a>
+        <a href="#">
+          <img src="/assets/svgs/twitter.svg" class="w-4 h-4" alt="">
+        </a>
+        <a href="#">
+          <img src="/assets/svgs/vimeo.svg" class="w-4 h-4" alt="">
+        </a>
+      </div>
+    </footer>
+  </body>
+
+</html>

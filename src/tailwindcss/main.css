@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-spartan text-black
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  a {
+    @apply transition-all
+  }
+}
+
+@layer utilities {
+  .btn-navigation {
+    @apply p-1 transition-all rounded-lg hover:bg-slate-200 hover:bg-opacity-20
+  }
+
+  .text-link {
+    @apply text-[9px] font-bold uppercase tracking-[3px] border-b-2 border-b-primary pb-2
+  }
+}
